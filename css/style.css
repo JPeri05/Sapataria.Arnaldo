@@ -1,0 +1,40 @@
+.corpo-pagina {
+    background-color: #EDE4E0;
+    color: #665A48;
+    width: 1350;
+    height: 350;
+}
+.cabecario-pagina {
+    height: 100px;
+    width: 1350px;
+    background-color: #9F8772;
+    display: block;
+}
+.artigo-pagina {
+    text-align: center;
+}
+.titulo-pagina {
+    font-size: 5rem;
+    padding-left:auto;
+}
+
+.subtitulo-pagina {
+    font-size: 3.5rem;
+    padding-left: auto;
+}
+.paragrafo-pagina {
+    font-size: 2rem;
+    padding-left:auto;
+}
+.navegador-pagina ul {
+    justify-content: space-between;
+}
+.navegador-pagina a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #628d4b;
+    background-color: white;
+}
+.rodape-pagina {
+    text-align: left;
+}
