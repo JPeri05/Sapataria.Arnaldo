@@ -1,59 +1,93 @@
 .corpo-pagina {
     background-color: #EDE4E0;
     color: #665A48;
-    width: 2000px;
-    height: 300px;
+    width: 1800px;
+    height: 1000px;
+    margin: 10px 20px 0px 20px;
 }
 .cabecario-pagina {
-    width: 2120px;
+    width: 1800px;
     height: 90px;
+    margin-bottom: 30px;
+    border: 5px;
+    border-style:solid;
+    border-radius: 25px;
+    border-color: #665A48;
+    padding: 1px;
     background-color: #9F8772;
 }
 .pagina {
-    width: 1500px;
+    width: 1800px;
     height: 50px;
 }
 .coluna {
-    width: 500px;
-    height: 1500px;
-    border-left: 1500px;
+    width: 150px;
+    height: 50px;
     color: #665A48;
-    border-left: 1500px;
 }
 .artigo-pagina {
-    padding: 1px 5px 2px 50px;
+    text-align: left;
+    width: 900px;
+    margin: 10px;
+    margin-left: 455px;
     text-align: center;
+    border: 5px;
+    border-radius: 25px;
+    border-style: solid;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.artigo-coluna {
+    width: 250px;
+    height: auto;
+    border: 5px;
+    border-color:#665A48;
+    border-style: solid;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
 }
 .titulo-pagina {
     font-size: 5rem;
-    padding-left:auto;
 }
 .titulo-coluna {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    text-align: left;
 }
 .subtitulo-pagina {
     font-size: 3.5rem;
-    padding-left: auto;
 }
 .subtitulo-coluna {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .paragrafo-pagina {
     font-size: 2rem;
-    padding-left:auto;
+    text-align: left;
+}
+.paragrafo-rodape {
+    font-size: 2rem;
+    text-align: center;
 }
 .navegador-pagina ul {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 400px;
-    margin-right: 500px;
+    display:flex;
+    justify-content:center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .navegador-pagina a {
-    font-size: 3rem;
-    line-height: 2;
+    font-size: 4rem;
+    line-height: 1.5;
     text-decoration: none;
     color: #daffc6;
+    padding-left: 75px;
 }
 .rodape-pagina {
-    text-align: right;
+    color: #daffc6;
+    background-color: #9F8772;
+    border: 5px;
+    border-color:#665A48;
+    border-radius: 20px;
+    border-style: solid;
+    margin-top: 700px;
 }
