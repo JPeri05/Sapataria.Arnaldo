@@ -2,12 +2,15 @@
     background-color: #EDE4E0;
     color: #665A48;
     width: 1800px;
-    height: 1000px;
-    margin: 10px 20px 0px 20px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .cabecario-pagina {
-    width: 1800px;
-    height: 90px;
+    width: auto;
+    height: 100px;
     margin-bottom: 30px;
     border: 5px;
     border-style:solid;
@@ -15,6 +18,9 @@
     border-color: #665A48;
     padding: 1px;
     background-color: #9F8772;
+    color: #daffc6;
+    line-height: 1.4;
+    padding-left: 550px;
 }
 .pagina {
     width: 1800px;
@@ -28,7 +34,8 @@
 .artigo-pagina {
     text-align: left;
     width: 900px;
-    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: 455px;
     text-align: center;
     border: 5px;
@@ -37,17 +44,17 @@
     padding: 20px;
     background-color: aliceblue;
 }
-.artigo-coluna {
-    width: 250px;
-    height: auto;
-    border: 5px;
-    border-color:#665A48;
-    border-style: solid;
-    border-radius: 25px;
-    margin: 10px;
-    padding: 10px;
-    background-color: aliceblue;
-}
+.artigo-coluna { 
+     width: 250px; 
+     height: auto; 
+     border: 5px; 
+     border-color:#665A48; 
+     border-style: solid; 
+     border-radius: 25px; 
+     margin: 10px; 
+     padding: 10px; 
+     background-color: aliceblue; 
+ }
 .titulo-pagina {
     font-size: 5rem;
 }
