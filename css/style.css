@@ -1,26 +1,16 @@
 .corpo-pagina {
     background-color: #EDE4E0;
     color: #665A48;
-    width: 1800px;
-    height: auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    width: 100vw;
+    height: 100vh;
 }
 .cabecario-pagina {
-    width: auto;
-    height: 100px;
-    margin-bottom: 30px;
-    border: 5px;
-    border-style:solid;
-    border-radius: 25px;
-    border-color: #665A48;
-    padding: 1px;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 20px;
     background-color: #9F8772;
     color: #daffc6;
     line-height: 1.4;
-    padding-left: 550px;
 }
 .pagina {
     width: 1800px;
@@ -90,11 +80,8 @@
     padding-left: 75px;
 }
 .rodape-pagina {
+    width: 100vw;
+    height: auto;
     color: #daffc6;
     background-color: #9F8772;
-    border: 5px;
-    border-color:#665A48;
-    border-radius: 20px;
-    border-style: solid;
-    margin-top: 700px;
 }
