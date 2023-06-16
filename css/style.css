@@ -1,3 +1,6 @@
+:root {
+     --fundo-artigo: white;
+}
 .corpo-pagina {
      background-color: #EDE4E0;
      color: #665A48;
@@ -37,7 +40,7 @@
      border: 5px solid #665A48;
      border-radius: 25px;
      padding: 10px;
-     background-color: aliceblue;
+     background-color: var(--fundo-artigo);
      margin-right: 7vw;
 }
 .artigo-coluna { 
@@ -46,7 +49,7 @@
      border: 5px solid #665A48; 
      border-radius: 25px; 
      padding: 10px; 
-     background-color: aliceblue;
+     background-color: var(--fundo-artigo);
      margin-left: 3vw;
  }
  .secao-coluna {
@@ -54,7 +57,7 @@
      height: auto; 
      border: 5px solid #665A48; 
      border-radius: 25px;  
-     background-color: aliceblue;
+     background-color: var(--fundo-artigo);
      margin-left: 3vw;
  }
  .secao-coluna ul {
@@ -116,4 +119,10 @@
      height: auto;
      color: #daffc6;
      background-color: #9F8772;
+}
+.toguro {
+     margin-left: 18vw;
+     width: 65vw;
+     height: 100vh;
+     border: 2vw green solid;
 }
