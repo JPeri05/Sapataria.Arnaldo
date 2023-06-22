@@ -1,9 +1,13 @@
 :root {
-     --fundo-artigo: white;
+     --cor-fundo: #fff;
+     --cor-fonte: #000;
+}
+hr {
+     border-color: var(--cor-fonte); border-width: 3px; border-radius: 5px; height: 0; margin: 0;
 }
 .corpo-pagina {
-     background-color: #EDE4E0;
-     color: #665A48;
+     background-color: var(--cor-fundo);
+     color: var(--cor-fonte);
      width: 100vw;
      height: 100vh;
      /*border: red 5px solid;*/
@@ -11,11 +15,10 @@
 .cabecario-pagina {
      width: 100vw;
      height: auto;
-     margin-bottom: 1rem;
-     background-color: #9F8772;
-     color: #daffc6;
+     color: var(--cor-fonte);
      line-height: 1.4;
-     text-align: center;
+     text-align: left;
+     padding-left: 65px;
 }
 .box-content {
     width: 100vw;
@@ -117,12 +120,6 @@
 .rodape-pagina {
      width: 100vw;
      height: auto;
-     color: #daffc6;
-     background-color: #9F8772;
-}
-.toguro {
-     margin-left: 18vw;
-     width: 65vw;
-     height: 100vh;
-     border: 2vw green solid;
+     color: var(--cor-fonte);
+     background-color: var(--cor-fundo);
 }
